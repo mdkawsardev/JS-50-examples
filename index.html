@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 Examples</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button type="button" id="mode">Day</button>
+    <h1>hello world</h1>
+
+
+
+
+    <button type="button" id="toggle">click</button>
+    <div class="parent" id="menu">
+        <ul>
+            <li><a href="#">links</a></li>
+            <li><a href="#">links</a></li>
+            <li><a href="#">links</a></li>
+            <li><a href="#">links</a></li>
+            <li><a href="#">links</a></li>
+            <li><a href="#">links</a></li>
+            <li><a href="#">links</a></li>
+        </ul>
+    </div>
+
+
+    <button type="button" id="sign" class="sign">Sign up</button>
+    <div class="login" id="login">
+        <div class="container" id="loginform">
+            <div class="wrapper">
+                <form action="#">
+                    <label for="click">Usernam:</label><input type="text" id="click" class="common" placeholder="Username" required>
+                    <label for="clickagain">Email:</label><input type="email" class="common" id="clickagain bv" placeholder="Usermail" required>
+                    <label for="pass">Password:</label><input type="password" class="common" id="pass" placeholder="Password" required>
+                    <button type="submit" class="common btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" onclick="cartQuan()">Cart quantity</button>
+    <button type="button" onclick="plusCart()">+1</button>
+    <button type="button" onclick="minusCart()">-1</button>
+    <button type="button" onclick="add2cart()">+2</button>
+    <button type="button" onclick="minus2cart()">-2</button>
+    <button type="button" onclick="add4cart()">+4</button>
+    <button type="button" onclick="minus4cart()">-4</button>
+    <button type="button" onclick="ressetAll()">Reset</button>
+    <button type="button" onclick="addNumber()">add +5</button>
+    <button type="button" onclick="minusNumber()">minus -5</button>
+    <button type="button" onclick="delete1()">Delete</button>
+    <p id="show">Quantity is:</p>
+    <button type="button" id="d_none" onclick="displayNone()" style="display:block; margin-bottom: 10px; background: transparent;border: none; cursor:pointer;"><i class="fa-solid fa-chevron-down"></i></button>
+    <button type="button" id="d_block" onclick="displayBlock()" style="display: none;margin-bottom: 10px; background: transparent;border: none; cursor:pointer;"><i class="fa-solid fa-chevron-up"></i></button>
+    <ul id="input" style="list-style:none; padding: 0; display: none;">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+    </ul>
+    <p id="grade"></p>
+    <div class="change_field">
+        <div class="child_field">
+            <div class="buttons">
+                <button type="button" class="btn" onclick="textChange()">Click to change texts</button>
+                <p id="tc">Hello World</p>
+                <button type="button" class="btn" onclick="textRechange()">Click to unchange texts</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn" onclick="textBig()">Click to make texts big</button>
+                <p id="typo">Hello World</p>
+                <button type="button" class="btn" onclick="textSmall()">Click to make text small</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class="btn" onclick="textPaint1()">Click to paint text</button>
+                <p id="decoration">Hello World</p>
+                <button type="button" class="btn" onclick="textPaint2()">Click to paint text</button>
+            </div>
+        </div>
+    </div>
+    <div class="button">
+        <button type="button" onclick="myFunction()" class="btn">alert</button>
+        <p id="hello"></p>
+    </div>
+
+    <div class="img">
+        <div class="second_img"><img src="image/normal.png" alt="emoji" id="emoji"></div>
+        <button type="button" onclick="clickHappy()">Happy</button>
+        <button type="button" onclick="clickSad()">Sad</button>
+        <button type="button" onclick="clickCry()">Cry</button>
+        <button type="button" onclick="clickAngry()">Angry</button>
+        <button type="button" onclick="clickLove()">Love</button>
+    </div>
+
+    <div class="fans">
+        <div class="fan1 fan" id="stop"></div>
+        <div class="fan2 fan" id="rotate"></div>
+        <button type="button" onclick="stop()">Off</button>
+        <button type="button" onclick="rotate()">On</button>
+    </div>
+    <button type="button" id="getlogin" onclick="toShow()">Login</button>
+    <div class="login_form" id="login">
+        <form action="#">
+            <input type="email" placeholder="Enter your email">
+            <input type="password" placeholder="Password">
+        </form>
+    </div>
+
+    <button type="button" onclick="getNumbers()">Click to show odd numbers</button>
+    <p id="numbers"></p>
+
+    <button type="button" onclick="MessagePopUp()">chick</button>
+    <p id="showMessage"></p>
+
+
+    <button type="button" id="jsbtn" class="jqbtn">show alert</button>
+    <button type="button" id="click">click</button>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Demo</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <script src="js/jq_file.js"></script>
+    <script src="https://kit.fontawesome.com/b01313c786.js" crossorigin="anonymous"></script>
+
+    <script src="js/write.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+
+.change_field {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child_field {
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+
+}
+
+.buttons {
+    width: 100%;
+    margin-bottom: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btn {
+    padding: 20px 25px;
+    background: transparent;
+    border: 1px solid green;
+    border-radius: .7rem;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 100px;
+    border: 1px solid black;
+}
+
+.second_img {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto 50px;
+}
+
+.second_img img {
+    width: 100%;
+}
+
+.fans {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.fan {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.fans button {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background: linear-gradient(to left, aqua, blue);
+    border-radius: 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.fans button:hover {
+    transition: 1s;
+    background: linear-gradient(to right, aqua, blue);
+}
+
+.fan2 {
+    display: none;
+    animation: myani .5s linear infinite;
+}
+
+@keyframes myani {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.login_form {
+
+    margin-bottom: 100px;
+    display: none;
+}
+
+.login_form form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#click {
+    margin: 20px 30px;
+    padding: 20px 30px;
+    font-size: 2rem;
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.793), rgba(255, 255, 0, 0.925));
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0 10px 1rem #838383;
+    color: #000000;
+    cursor: pointer;
+}
+
+.menu {
+    /* display: none; */
+    margin: 20px 30px;
+}
+
+.menu ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li a{
+    margin: .7rem 0;
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    color: #000000;
+    transition: all .5s linear;
+}
+
+.menu ul li a:hover {
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.793), rgba(255, 255, 0, 0.925));
+    box-shadow: 0 10px 1rem #838383;
+}
+
+.dnone {
+    transition: 1s linear;
+}
+.parent{
+    display: none;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    margin: 50px 0;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to top, aqua, blue);
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.container{
+    display: none;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px #9a9a9a;
+    padding: 20px;
+    transition: .22s linear;
+    animation: animate .22s ease;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+.wrapper{
+    
+    
+    
+}
+
+.wrapper form{
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+
+}
+
+.common {
+    padding: 1rem .5rem;
+    font-size: 1.1rem;
+    background: linear-gradient(to left, #dadada, #ababab, #ababab);
+    /* background: repeating-radial-gradient(#dadada, #ababab); */
+    border: 1px solid #79e9ff;
+    outline: none;
+    border-radius: .9rem;
+    text-shadow: 0 2px 0 #cdcdcd;
+    color: #000;
+}
+::placeholder {
+    color: #000;
+}
+.btn {
+    margin-top: 2rem;
+}
